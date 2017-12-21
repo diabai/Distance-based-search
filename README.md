@@ -10,3 +10,5 @@ anywhere on the planet with internet access.
 
 For debugging & transparency purposes I'm outputing a ``Toast`` of your device's current GPS coordinates upon each search.
 
+**NB:** Testing on a real Android device is preferred.
+
