@@ -1,0 +1,7 @@
+#Thu Dec 21 14:13:45 PST 2017
+base.0=/Users/ikdiabate/Downloads/Distance/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_18a354995d97cda94b640b56637c665f087ce38d
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/ikdiabate/Downloads/Distance/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_655fc717d267fe3988a18f1fea96aee6131b4b34/classes.dex
+base.1=/Users/ikdiabate/Downloads/Distance/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_655fc717d267fe3988a18f1fea96aee6131b4b34
+file.0=/Users/ikdiabate/Downloads/Distance/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_18a354995d97cda94b640b56637c665f087ce38d/classes.dex

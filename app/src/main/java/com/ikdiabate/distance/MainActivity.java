@@ -285,7 +285,7 @@ public class MainActivity extends AppCompatActivity
         Toast.makeText(this, currLat + "<- lat (LOADER) long ->" + currLong + "", Toast.LENGTH_LONG).show();
     }
         uriBuilder.appendQueryParameter("locationRadius", "5mi");
-        uriBuilder.appendQueryParameter("maxResults", "55");
+        uriBuilder.appendQueryParameter("maxResults", "30");
         uriBuilder.appendQueryParameter("q", keyword);
         uriBuilder.appendQueryParameter("type", "video");
         uriBuilder.appendQueryParameter("orderby", orderBy);

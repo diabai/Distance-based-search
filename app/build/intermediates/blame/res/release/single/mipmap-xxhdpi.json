@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/ikdiabate/Downloads/Distance/app/build/intermediates/res/merged/release/mipmap-xxhdpi/ic_launcher.png",
+        "source": "/Users/ikdiabate/Downloads/Distance/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/ikdiabate/Downloads/Distance/app/build/intermediates/res/merged/release/mipmap-xxhdpi/ic_launcher_round.png",
+        "source": "/Users/ikdiabate/Downloads/Distance/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    }
+]

@@ -1,0 +1,145 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/ikdiabate/Downloads/Distance/app/src/main/AndroidManifest.xml:2:1-42:12
+	package
+		ADDED from /Users/ikdiabate/Downloads/Distance/app/src/main/AndroidManifest.xml:3:5-37
+		INJECTED from /Users/ikdiabate/Downloads/Distance/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ikdiabate/Downloads/Distance/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/ikdiabate/Downloads/Distance/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ikdiabate/Downloads/Distance/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/ikdiabate/Downloads/Distance/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /Users/ikdiabate/Downloads/Distance/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ikdiabate/Downloads/Distance/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/ikdiabate/Downloads/Distance/app/src/main/AndroidManifest.xml:5:5-81
+	android:name
+		ADDED from /Users/ikdiabate/Downloads/Distance/app/src/main/AndroidManifest.xml:5:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/ikdiabate/Downloads/Distance/app/src/main/AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from /Users/ikdiabate/Downloads/Distance/app/src/main/AndroidManifest.xml:6:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /Users/ikdiabate/Downloads/Distance/app/src/main/AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from /Users/ikdiabate/Downloads/Distance/app/src/main/AndroidManifest.xml:7:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/ikdiabate/Downloads/Distance/app/src/main/AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from /Users/ikdiabate/Downloads/Distance/app/src/main/AndroidManifest.xml:8:22-76
+application
+ADDED from /Users/ikdiabate/Downloads/Distance/app/src/main/AndroidManifest.xml:10:5-40:19
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/ikdiabate/.android/build-cache/1d02246499da2c9f680b264c4d45e2b71c33cb49/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /Users/ikdiabate/.android/build-cache/a7a47c7f8c97047b4e3795486ad9d04ec85edb5a/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /Users/ikdiabate/.android/build-cache/c2fd4aa0d70a17c2f12a6ca884fb6a9b39e13885/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/ikdiabate/.android/build-cache/c125d183d6490e483fb28a92121d2916b5b5f575/output/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-location:11.0.2] /Users/ikdiabate/.android/build-cache/7cc34fb1e1478871fc2358713977e85b72932b49/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-base:11.0.2] /Users/ikdiabate/.android/build-cache/6bca2749b084bcd941c7e2fe2f98fc9be1bf7e53/output/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:11.0.2] /Users/ikdiabate/.android/build-cache/478bfee61cd875db4738112d21a9a088c90d0ae3/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.0.2] /Users/ikdiabate/.android/build-cache/536fb6842a8bab731eda40033ded5791f8bad71e/output/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /Users/ikdiabate/.android/build-cache/d7b66a14b24e80eaeb2bc0682c896f4e9ca726f1/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /Users/ikdiabate/.android/build-cache/18382962bfa4cb9849121b1232449d1f1cb34d3a/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /Users/ikdiabate/.android/build-cache/942e6761eb7ea82112b3410fb218ea47a6396588/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /Users/ikdiabate/.android/build-cache/ac1d6d683550aa0fddb096be3911c60ae6185b26/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /Users/ikdiabate/.android/build-cache/68620343ab50b11dd0f097126b00559669fd6100/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /Users/ikdiabate/.android/build-cache/b577523796f83d134d30c8029e037f65f7e1d854/output/AndroidManifest.xml:29:5-20
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/ikdiabate/.android/build-cache/98050e39c14c9eddc97f2aedf0ef2e772aa9654a/output/AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from /Users/ikdiabate/Downloads/Distance/app/src/main/AndroidManifest.xml:13:9-41
+	android:supportsRtl
+		ADDED from /Users/ikdiabate/Downloads/Distance/app/src/main/AndroidManifest.xml:15:9-35
+	android:roundIcon
+		ADDED from /Users/ikdiabate/Downloads/Distance/app/src/main/AndroidManifest.xml:14:9-54
+	android:allowBackup
+		ADDED from /Users/ikdiabate/Downloads/Distance/app/src/main/AndroidManifest.xml:11:9-35
+	android:icon
+		ADDED from /Users/ikdiabate/Downloads/Distance/app/src/main/AndroidManifest.xml:12:9-43
+	android:theme
+		ADDED from /Users/ikdiabate/Downloads/Distance/app/src/main/AndroidManifest.xml:16:9-40
+activity#com.ikdiabate.distance.MainActivity
+ADDED from /Users/ikdiabate/Downloads/Distance/app/src/main/AndroidManifest.xml:17:9-23:20
+	android:name
+		ADDED from /Users/ikdiabate/Downloads/Distance/app/src/main/AndroidManifest.xml:17:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/ikdiabate/Downloads/Distance/app/src/main/AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from /Users/ikdiabate/Downloads/Distance/app/src/main/AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from /Users/ikdiabate/Downloads/Distance/app/src/main/AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/ikdiabate/Downloads/Distance/app/src/main/AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from /Users/ikdiabate/Downloads/Distance/app/src/main/AndroidManifest.xml:21:27-74
+activity#com.ikdiabate.distance.SettingsActivity
+ADDED from /Users/ikdiabate/Downloads/Distance/app/src/main/AndroidManifest.xml:25:9-31:20
+	android:label
+		ADDED from /Users/ikdiabate/Downloads/Distance/app/src/main/AndroidManifest.xml:27:13-51
+	android:name
+		ADDED from /Users/ikdiabate/Downloads/Distance/app/src/main/AndroidManifest.xml:26:13-45
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from /Users/ikdiabate/Downloads/Distance/app/src/main/AndroidManifest.xml:28:13-30:70
+	android:value
+		ADDED from /Users/ikdiabate/Downloads/Distance/app/src/main/AndroidManifest.xml:30:17-68
+	android:name
+		ADDED from /Users/ikdiabate/Downloads/Distance/app/src/main/AndroidManifest.xml:29:17-63
+activity#com.ikdiabate.distance.PlayerActivity
+ADDED from /Users/ikdiabate/Downloads/Distance/app/src/main/AndroidManifest.xml:33:9-39:20
+	android:screenOrientation
+		ADDED from /Users/ikdiabate/Downloads/Distance/app/src/main/AndroidManifest.xml:35:13-49
+	android:name
+		ADDED from /Users/ikdiabate/Downloads/Distance/app/src/main/AndroidManifest.xml:34:13-43
+uses-sdk
+INJECTED from /Users/ikdiabate/Downloads/Distance/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/ikdiabate/.android/build-cache/1d02246499da2c9f680b264c4d45e2b71c33cb49/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /Users/ikdiabate/.android/build-cache/a7a47c7f8c97047b4e3795486ad9d04ec85edb5a/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /Users/ikdiabate/.android/build-cache/c2fd4aa0d70a17c2f12a6ca884fb6a9b39e13885/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/ikdiabate/.android/build-cache/c125d183d6490e483fb28a92121d2916b5b5f575/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-location:11.0.2] /Users/ikdiabate/.android/build-cache/7cc34fb1e1478871fc2358713977e85b72932b49/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-base:11.0.2] /Users/ikdiabate/.android/build-cache/6bca2749b084bcd941c7e2fe2f98fc9be1bf7e53/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.0.2] /Users/ikdiabate/.android/build-cache/478bfee61cd875db4738112d21a9a088c90d0ae3/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.0.2] /Users/ikdiabate/.android/build-cache/536fb6842a8bab731eda40033ded5791f8bad71e/output/AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /Users/ikdiabate/.android/build-cache/d7b66a14b24e80eaeb2bc0682c896f4e9ca726f1/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /Users/ikdiabate/.android/build-cache/18382962bfa4cb9849121b1232449d1f1cb34d3a/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /Users/ikdiabate/.android/build-cache/942e6761eb7ea82112b3410fb218ea47a6396588/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /Users/ikdiabate/.android/build-cache/ac1d6d683550aa0fddb096be3911c60ae6185b26/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /Users/ikdiabate/.android/build-cache/68620343ab50b11dd0f097126b00559669fd6100/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /Users/ikdiabate/.android/build-cache/b577523796f83d134d30c8029e037f65f7e1d854/output/AndroidManifest.xml:21:5-23:58
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/ikdiabate/.android/build-cache/98050e39c14c9eddc97f2aedf0ef2e772aa9654a/output/AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/ikdiabate/.android/build-cache/1d02246499da2c9f680b264c4d45e2b71c33cb49/output/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/ikdiabate/Downloads/Distance/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ikdiabate/Downloads/Distance/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/ikdiabate/Downloads/Distance/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ikdiabate/Downloads/Distance/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/ikdiabate/.android/build-cache/1d02246499da2c9f680b264c4d45e2b71c33cb49/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /Users/ikdiabate/.android/build-cache/a7a47c7f8c97047b4e3795486ad9d04ec85edb5a/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /Users/ikdiabate/.android/build-cache/c2fd4aa0d70a17c2f12a6ca884fb6a9b39e13885/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /Users/ikdiabate/.android/build-cache/d7b66a14b24e80eaeb2bc0682c896f4e9ca726f1/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /Users/ikdiabate/.android/build-cache/18382962bfa4cb9849121b1232449d1f1cb34d3a/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /Users/ikdiabate/.android/build-cache/942e6761eb7ea82112b3410fb218ea47a6396588/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /Users/ikdiabate/.android/build-cache/ac1d6d683550aa0fddb096be3911c60ae6185b26/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /Users/ikdiabate/.android/build-cache/68620343ab50b11dd0f097126b00559669fd6100/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /Users/ikdiabate/.android/build-cache/b577523796f83d134d30c8029e037f65f7e1d854/output/AndroidManifest.xml:25:5-27:41
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/ikdiabate/.android/build-cache/1d02246499da2c9f680b264c4d45e2b71c33cb49/output/AndroidManifest.xml:27:9-38
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/ikdiabate/.android/build-cache/1d02246499da2c9f680b264c4d45e2b71c33cb49/output/AndroidManifest.xml:26:9-47
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.0.2] /Users/ikdiabate/.android/build-cache/6bca2749b084bcd941c7e2fe2f98fc9be1bf7e53/output/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.0.2] /Users/ikdiabate/.android/build-cache/6bca2749b084bcd941c7e2fe2f98fc9be1bf7e53/output/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.0.2] /Users/ikdiabate/.android/build-cache/6bca2749b084bcd941c7e2fe2f98fc9be1bf7e53/output/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.0.2] /Users/ikdiabate/.android/build-cache/6bca2749b084bcd941c7e2fe2f98fc9be1bf7e53/output/AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:11.0.2] /Users/ikdiabate/.android/build-cache/536fb6842a8bab731eda40033ded5791f8bad71e/output/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:11.0.2] /Users/ikdiabate/.android/build-cache/536fb6842a8bab731eda40033ded5791f8bad71e/output/AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:11.0.2] /Users/ikdiabate/.android/build-cache/536fb6842a8bab731eda40033ded5791f8bad71e/output/AndroidManifest.xml:20:20-65
