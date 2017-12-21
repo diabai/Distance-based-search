@@ -1,9 +1,5 @@
 [
     {
-        "merged": "/Users/ikdiabate/Documents/AndroidStudioProjects/Distance/app/build/intermediates/res/merged/debug/xml/settings_main.xml",
-        "source": "/Users/ikdiabate/Documents/AndroidStudioProjects/Distance/app/src/main/res/xml/settings_main.xml"
-    },
-    {
         "merged": "/Users/ikdiabate/Downloads/Distance/app/build/intermediates/res/merged/debug/xml/settings_main.xml",
         "source": "/Users/ikdiabate/Downloads/Distance/app/src/main/res/xml/settings_main.xml"
     }

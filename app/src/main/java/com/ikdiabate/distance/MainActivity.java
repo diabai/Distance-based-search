@@ -282,7 +282,7 @@ public class MainActivity extends AppCompatActivity
 
         //For debugging purposes
     if (!(currLat == null && currLong ==null)) {
-        Toast.makeText(this, currLat + "LOADER" + currLong + "", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, currLat + "<- lat (LOADER) long ->" + currLong + "", Toast.LENGTH_LONG).show();
     }
         uriBuilder.appendQueryParameter("locationRadius", "5mi");
         uriBuilder.appendQueryParameter("maxResults", "55");
@@ -392,7 +392,7 @@ Log.d("Main Activity", "*** Location was null");
             currentLatitude = location.getLatitude();
             currentLongitude = location.getLongitude();
 
-            Toast.makeText(this, currentLatitude + " REAL 1 " + currentLongitude + "", Toast.LENGTH_LONG).show();
+           Toast.makeText(this, currentLatitude + " <-lat - long-> " + currentLongitude + "", Toast.LENGTH_LONG).show();
             editor.putString("CURRENTLAT", Double.toString(currentLatitude));
             editor.putString("CURRENTLONG", Double.toString(currentLongitude));
             editor.commit();

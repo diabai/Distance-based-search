@@ -1,13 +1,5 @@
 [
     {
-        "merged": "/Users/ikdiabate/Documents/AndroidStudioProjects/Distance/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
-        "source": "/Users/ikdiabate/.android/build-cache/1d02246499da2c9f680b264c4d45e2b71c33cb49/output/res/layout-v21/notification_template_custom_big.xml"
-    },
-    {
-        "merged": "/Users/ikdiabate/Documents/AndroidStudioProjects/Distance/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
-        "source": "/Users/ikdiabate/.android/build-cache/1d02246499da2c9f680b264c4d45e2b71c33cb49/output/res/layout-v21/notification_action.xml"
-    },
-    {
         "merged": "/Users/ikdiabate/Downloads/Distance/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
         "source": "/Users/ikdiabate/.android/build-cache/1d02246499da2c9f680b264c4d45e2b71c33cb49/output/res/layout-v21/notification_template_custom_big.xml"
     },
@@ -22,13 +14,5 @@
     {
         "merged": "/Users/ikdiabate/Downloads/Distance/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
         "source": "/Users/ikdiabate/.android/build-cache/1d02246499da2c9f680b264c4d45e2b71c33cb49/output/res/layout-v21/notification_action.xml"
-    },
-    {
-        "merged": "/Users/ikdiabate/Documents/AndroidStudioProjects/Distance/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
-        "source": "/Users/ikdiabate/.android/build-cache/1d02246499da2c9f680b264c4d45e2b71c33cb49/output/res/layout-v21/notification_template_icon_group.xml"
-    },
-    {
-        "merged": "/Users/ikdiabate/Documents/AndroidStudioProjects/Distance/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
-        "source": "/Users/ikdiabate/.android/build-cache/1d02246499da2c9f680b264c4d45e2b71c33cb49/output/res/layout-v21/notification_action_tombstone.xml"
     }
 ]
