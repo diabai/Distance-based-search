@@ -205,8 +205,8 @@ public class MainActivity extends AppCompatActivity
         currLong = pref.getString("CURRENTLONG", "");
 
 
-Log.d(LOG_TAG, currLat + "*** create " + currLong);
-        //Set default GPS coordinates to Kent, WA
+    //Log.d(LOG_TAG, currLat + "*** create " + currLong);
+        //Set default GPS coordinates to Kent, WA if coordinates can't be accessed
         if (currLat.isEmpty() && currLong.isEmpty()) {
             currLat = "47.3634389";
             currLong = "-122.19963840000003";
@@ -233,7 +233,7 @@ Log.d(LOG_TAG, currLat + "*** create " + currLong);
 
 
     /**
-     * If
+     * Handles changes to SharedPreferences.
      * @param prefs
      * @param key
      */
@@ -280,17 +280,19 @@ Log.d(LOG_TAG, currLat + "*** create " + currLong);
         uriBuilder.appendQueryParameter("part", "snippet");
         uriBuilder.appendQueryParameter("location", (currLat + "," + currLong));
 
-
+        //For debugging purposes
+    if (!(currLat == null && currLong ==null)) {
         Toast.makeText(this, currLat + "LOADER" + currLong + "", Toast.LENGTH_LONG).show();
-
-        uriBuilder.appendQueryParameter("locationRadius", "10mi");
-        uriBuilder.appendQueryParameter("maxResults", "25");
+    }
+        uriBuilder.appendQueryParameter("locationRadius", "5mi");
+        uriBuilder.appendQueryParameter("maxResults", "55");
         uriBuilder.appendQueryParameter("q", keyword);
         uriBuilder.appendQueryParameter("type", "video");
         uriBuilder.appendQueryParameter("orderby", orderBy);
         uriBuilder.appendQueryParameter("key", BuildConfig.API_KEY_TOKEN);
 
         String uRitext = uriBuilder.toString();
+
         Log.e(LOG_TAG, "This is the link: " + uRitext);
 
         return new DistanceLoader(this, uriBuilder.toString());
@@ -362,7 +364,7 @@ Log.d(LOG_TAG, currLat + "*** create " + currLong);
             return;
         }
         Location location = LocationServices.FusedLocationApi.getLastLocation(mGoogleApiClient);
-        Log.d(LOG_TAG, "Here location> " + location.toString());
+//        Log.d(LOG_TAG, "Here location> " + location.toString());
 
         if (location == null) {
 Log.d("Main Activity", "*** Location was null");
@@ -449,18 +451,31 @@ Log.d("Main Activity", "*** Location was null");
         editor.putString("CURRENTLONG", Double.toString(currentLongitude));
         editor.commit();
 
-        Toast.makeText(this, currentLatitude + " WORKS " + currentLongitude + "", Toast.LENGTH_LONG).show();
+       // Toast.makeText(this, currentLatitude + " WORKS " + currentLongitude + "", Toast.LENGTH_LONG).show();
     }
 
 
+    /**
+     * Helper method for access to coarse location
+     * @return true if permission granted otherwise false
+     */
     private boolean canAccessCoarseLocation() {
         return(hasPermission(Manifest.permission.ACCESS_COARSE_LOCATION));
     }
 
+    /**
+     * Helper method for access to fine location
+     * @return
+     */
     private boolean canAccessFineLocation() {
         return(hasPermission(Manifest.permission.ACCESS_FINE_LOCATION));
     }
 
+    /**
+     * Checks whether any permission passed as parameter was granted.
+     * @param perm the permission name
+     * @return true if permission granted otherwise false
+     */
     private boolean hasPermission(String perm) {
         return(PackageManager.PERMISSION_GRANTED== ActivityCompat.checkSelfPermission(this, perm));
     }
