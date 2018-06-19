@@ -17,7 +17,7 @@ For debugging & transparency purposes I'm outputing a ``Toast`` of your device's
 
 ![Query](app_photo_2.png)
 
-![Search by](app_photo_1.png)
+![Search by](app_photo1.png)
 
 ![Video results](app_photo_4.png)
 
