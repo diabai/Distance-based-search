@@ -12,8 +12,17 @@ For debugging & transparency purposes I'm outputing a ``Toast`` of your device's
 
 **NB:** Testing on a real Android device is preferred.
 
+## Project 
 
-## The application
+![Application diagram](app_diagram.png)
+
+
+## Flowchart
+
+![Application flowchart](app_flow_chart.png)
+
+
+## Completed project
 
 ![Query](app_photo_2.png)
 
